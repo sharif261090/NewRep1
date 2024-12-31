@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="35dp"
-        android:text="Are you sure??"
+        android:text="@string/are_you_sure"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="41dp"
         android:onClick="cancel"
-        android:text="Cancel"
+        android:text="@string/cancel"
         app:layout_constraintBaseline_toBaselineOf="@+id/Confirm"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
         android:layout_marginBottom="32dp"
-        android:text="Confirm"
+        android:text="@string/confirm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Cancel" />
 </androidx.constraintlayout.widget.ConstraintLayout>
